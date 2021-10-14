@@ -5,7 +5,7 @@ argument: .word   7
 
 .text
 main:
-        la  s0, gain         
+        la s0, gain         
         mv s1, zero # altitude = 0
         mv s2, zero # highest = 0
         lw s3, len
